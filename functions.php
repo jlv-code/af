@@ -20,7 +20,7 @@ function af_theme_features()  {
 	add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
 
 	// Add theme support for document Title tag
-	add_theme_support( 'title-tag' );
+	//add_theme_support( 'title-tag' );
 
 	if (function_exists('add_image_size')) {
 		add_image_size('240x180', 240, 180, true);

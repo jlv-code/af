@@ -175,23 +175,20 @@ body {
 								section .inner .distributions .lastest-movies .inner {
 									margin: 0;
 									padding: 0;
-									float: left;
 									width: 100%;
+									display: flex;
+									flex-direction: row;
+									justify-content: space-between;
+									align-items: stretch;
 								}
 
 									section .inner .distributions .lastest-movies .inner .movie {
-										margin: 0 3px;
-										float: left;
 										width: 155px;
-										height: 355px;
 										background: rgba(250,220,0,.6);
 									}
 
 										section .inner .distributions .lastest-movies .inner .movie .inner-movie {
-											margin: 0 0 15px 0;
-											float: left;
 											width: 155px;
-											height: 340px;
 											overflow: hidden;
 										}
 
@@ -322,11 +319,18 @@ body {
 /* CATEGORY STYLES */
 
 .inner h1,
-.inner .entry,
+.inner .entry {
+	display: flex;
+	margin: 0 15px;
+	width: 970px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
 .inner .pag {
 	display: inline-block;
 	margin: 0 15px;
-	width: 970px;
 }
 
 .inner h1 {
@@ -340,10 +344,8 @@ body {
 
 	.inner .entry .article {
 		position: relative;
-		margin: 1px 1.1px;
 		float: left;
 		width: 240px;
-		height: 400px;
 		background: rgba(235,170,0,.4);
 	}
 
@@ -356,8 +358,6 @@ body {
 			padding: 0;
 			float: left;
 			width: 220px;
-			height: 380px;
-			overflow: hidden;
 		}
 
 			.inner .entry .article .date {
