@@ -183,18 +183,18 @@ body {
 								}
 
 									section .inner .distributions .lastest-movies .inner .movie {
-										width: 155px;
+										width: 150px;
 										background: rgba(250,220,0,.6);
 									}
 
 										section .inner .distributions .lastest-movies .inner .movie .inner-movie {
-											width: 155px;
+											width: 150px;
 											overflow: hidden;
 										}
 
 											section .inner .distributions .lastest-movies .inner .movie img {
 												display: block;
-												width: 155px;
+												width: 150px;
 												height: 250px;
 											}
 
