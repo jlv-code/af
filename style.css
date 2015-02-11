@@ -1,0 +1,678 @@
+/*
+Theme Name: Amazonia Films - 2014
+Author: José L. Viéitez
+Author URI: http://jlvdesign.blogspot.com
+Version: 1.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/copyleft/gpl.html
+Theme URI: http://jlvdesign.blogspot.com
+Description: Tema Wordpress desarrollado para el sitio web de Amazonia Films &copy;2014
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+@font-face {
+    font-family: 'Maridavid';
+    src: url('static/fonts/MARIyDAVID.ttf');
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+@font-face {
+    font-family: 'Maridavidb';
+    src: url('static/fonts/MARIyDAVID_BOLD.ttf');
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: 'Maridavid2b';
+    src: url('static/fonts/MARIyDAVID_EXTRABOLD.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(static/images/bg.png);
+	font-family: 'Lato';
+}
+
+	#wrap {
+		width: 100%;
+	}
+
+		#content {
+			margin: 0 auto;
+			width: 1000px;
+		}
+
+			#content > .inner {
+				float: left;
+				width: 100%;
+				background-image: url(static/images/bg-inner.png);
+			}
+
+				header {
+					float: left;
+					width: 1000px;
+					border-bottom: 3px solid #fff;
+				}
+
+					header .wrapper {
+						float: left;
+						width: 820px;
+					}
+
+						header .wrapper .social {
+							margin: 50px 0 0 0;
+							float: left;
+							width: 100%;
+						}
+
+							header .wrapper .social a {
+								margin: 0 15px;
+								float: left;
+							}
+
+								header .wrapper .social a img {
+									display: block;
+									width: 42px;
+									height: auto;
+									opacity: .6;
+								}
+
+								header .wrapper .social a img:hover {
+									opacity: 1;
+								}
+
+						header .wrapper nav {
+							margin: 20px 0 0 0;
+							float: left;
+							width: 100%;
+						}
+
+							nav .menu-principal-container {
+								margin: 20px 0 0 15px;
+							}
+
+								ul#menu-principal {
+									display: block;
+									list-style: none;
+								}
+
+									ul#menu-principal li {
+										margin: 0 20px 0 0;
+										float: left;
+										list-style: none;
+									}
+
+										ul#menu-principal li a {
+											padding: 2px;
+											color: #fff;
+											font-family: 'Maridavid';
+											font-size: 1.5em;
+											text-decoration: none;
+											letter-spacing: 2px;
+										}
+
+										ul#menu-principal li a:hover {
+											text-decoration: underline;
+										}
+
+					header .logo {
+						margin: 50px 15px 15px 15px;
+						float: left;
+						width: 150px;
+					}
+
+				section {
+					float: left;
+					width: 1000px;
+				}
+
+					section .inner {
+						margin: 0;
+						padding: 15px 0;
+						float: left;
+						width: 1000px;
+					}
+
+						section .inner .slider,
+						section .inner .distributions,
+						section .inner .general-info {
+							padding: 0 15px;
+							float: left;
+							width: 970px;
+						}
+
+						section .inner .slider {
+							margin: 0 15px;
+							padding: 0;
+							overflow: hidden;
+						}
+
+							section	.inner .slider .huge_it_slideshow_dots_container_1 {
+								display: none;
+							}
+
+						section .inner .distributions {
+							margin: 15px 0;
+						}
+
+							section .inner .distributions .lastest-movies {
+								float: left;
+								width: 100%;
+							}
+
+								section .inner .distributions .lastest-movies .inner {
+									margin: 0;
+									padding: 0;
+									float: left;
+									width: 100%;
+								}
+
+									section .inner .distributions .lastest-movies .inner .movie {
+										margin: 0 3px;
+										float: left;
+										width: 155px;
+										height: 355px;
+										background: rgba(250,220,0,.6);
+									}
+
+										section .inner .distributions .lastest-movies .inner .movie .inner-movie {
+											margin: 0 0 15px 0;
+											float: left;
+											width: 155px;
+											height: 340px;
+											overflow: hidden;
+										}
+
+											section .inner .distributions .lastest-movies .inner .movie img {
+												display: block;
+												width: 155px;
+												height: 250px;
+											}
+
+											section .inner .distributions .lastest-movies .inner .movie a {
+												display: block;
+												margin: 10px 5px 0;
+												color: #fff;
+												font-size: 1em;
+												font-weight: 700;
+												text-decoration: none;
+											}
+
+											section .inner .distributions .lastest-movies .inner .movie a:hover {
+												text-decoration: underline;
+											}
+
+											section .inner .distributions .lastest-movies .inner .movie span {
+												display: block;
+												margin: 5px 5px 10px 5px;
+												color: #fff;
+												font-size: .8em;
+												text-decoration: none;
+											}
+
+						section .inner .general-info {
+							border-top: 3px solid #fff;
+						}
+
+							section .inner .general-info .lastest-news {
+								float: left;
+								width: 670px;
+							}
+
+								section .inner .general-info .lastest-news .inner {
+									margin: 15px 0 0 0;
+									padding: 0;
+									float: left;
+									width: 100%;
+								}
+									section .inner .general-info .lastest-news .inner .post {
+										margin: 0 15px 0 0;
+										float: left;
+										width: 320px;
+										height: 360px;
+										background: rgba(235,170,0,.4);
+									}
+
+										section .inner .general-info .lastest-news .inner .post a,
+										section .inner .general-info .lastest-news .inner .post span {
+											float: left;
+											width: 100%;
+										}
+
+										section .inner .general-info .lastest-news .inner .post a {
+											color: #fff;
+											font-size: 1em;
+											font-weight: 700;
+											text-decoration: none;
+										}
+
+										section .inner .general-info .lastest-news .inner .post a.title {
+											margin: 0 15px 5px;
+											width: 290px;
+											height: 70px;
+											overflow: hidden;
+										}
+
+										section .inner .general-info .lastest-news .inner .post a.title:hover {
+											text-decoration: underline;
+										}
+
+											section .inner .general-info .lastest-news .inner .post a img {
+												display: block;
+												width: 100%;
+												height: auto;
+											}
+
+											section .inner .general-info .lastest-news .inner .post span {
+												margin: 5px 15px;
+												color: #fff;
+												font-size: .9em;
+											}
+
+							section .inner .general-info .social {
+								margin: 15px 0 0 0;
+								float: left;
+								width: 300px;
+							}
+
+				footer {
+					float: left;
+					width: 1000px;
+					border-top: 3px solid #fff;
+				}
+
+					footer .inner {
+						padding: 15px 0;
+						float: left;
+						width: 1000px;
+					}
+
+						footer .inner .minci img,
+						footer .inner .juventud img {
+							display: block;
+						}
+
+						footer .inner .minci {
+							margin: 0 0 0 15px;
+							float: left;
+						}
+
+						footer .inner .juventud {
+							margin: 0 15px 0 0;
+							float: right;
+						}
+
+						footer .inner .juventud img {
+							width: 220px;
+							height: auto;
+						}
+
+/* CATEGORY STYLES */
+
+.inner h1,
+.inner .entry,
+.inner .pag {
+	display: inline-block;
+	margin: 0 15px;
+	width: 970px;
+}
+
+.inner h1 {
+	margin-bottom: 50px;
+	color: #fff;
+	border-bottom: 1px solid rgba(230,170,0,.4);;
+	font-family: 'Maridavid';
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+
+	.inner .entry .article {
+		position: relative;
+		margin: 1px 1.1px;
+		float: left;
+		width: 240px;
+		height: 400px;
+		background: rgba(235,170,0,.4);
+	}
+
+	.inner .entry .article:hover {
+		background: rgba(235,170,0,.8);
+	}
+
+		.inner .entry .article .inner {
+			margin: 10px;
+			padding: 0;
+			float: left;
+			width: 220px;
+			height: 380px;
+			overflow: hidden;
+		}
+
+			.inner .entry .article .date {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				padding: 2px 5px;
+				color: #fff;
+				font-size: .9em;
+				background: rgba(0,0,0,.8);
+			}
+
+			.inner .entry .article a {
+				float: left;
+				width: 100%;
+				color: #fff;
+				text-decoration: none;
+			}
+
+				.inner .entry .article a img {
+					display: block;
+					width: 220px;
+					height: auto;
+				}
+
+				.inner .entry .article a h2 {
+					margin: 10px 0 0 0;
+					color: #fff;
+					font-size: 1.3em;
+				}
+
+				.inner .entry .article .excerpt {
+					margin: 10px 0 0 0;
+					float: left;
+					color: #fff;
+					font-size: .8em;
+				}
+
+	.inner .pag .page-numbers {
+		margin: 50px 1px 0 0;
+		padding: 5px 15px;
+		float: left;
+		color: #A50F1C;
+		background: rgba(250,250,250,.8);
+		text-decoration: none;
+	}
+
+	.inner .pag .current {
+		background: rgba(250,250,250,1);
+	}
+
+/* SINGLE STYLES */
+
+.inner aside,
+.inner article {
+	margin-bottom: 50px;
+	float: left;
+}
+
+.inner aside {
+	margin-left: 15px;
+	width: 240px;
+}
+
+	.inner aside .tags {
+		display: block;
+		margin: 10px 0 0 0;
+	}
+
+		.inner aside .tags a {
+			margin: 0 1px 0 0;
+			padding: 3px 5px;
+			float: left;
+			color: rgba(250, 250, 250, .6);
+			background: rgba(235,170,0,.4);
+			text-decoration: none;
+		}
+
+	.inner aside .poster {
+		display: block;
+	}
+
+		.inner aside .poster img {
+			display: block;
+			width: 240px;
+			height: auto;
+		}
+
+	.inner aside .premier,
+	.inner aside .trailer,
+	.inner aside .gallery {
+		display: block;
+		margin: 0 0 15px 0;
+		width: 240px;
+	}
+
+		.inner aside .premier span {
+			display: block;
+			padding: 5px;
+			width: 230px;
+			color: #fff;
+			background: rgba(30,30,30,1);
+			font-size: 1.2em;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		.inner article .content p {
+			margin: 15px 0 0 0;
+		}
+
+		.inner aside .gallery a {
+			padding: 10px;
+			float: left;
+			background: rgba(230,170,0,.4);
+		}
+
+		.inner aside .gallery a:hover {
+			background: rgba(30,30,30,1);
+		}
+
+			.inner aside .gallery .wrapimg {
+				display: block;
+			}
+
+				.inner aside .gallery a img {
+					display: block;
+				}
+
+		.inner article .content .synopsis,
+		.inner article .content .direction,
+		.inner article .content .cast,
+		.inner article .content .technique {
+			display: block;
+			margin: 0 0 25px 0;
+		}
+
+.inner article {
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 715px;
+}
+
+	.inner article h1,
+	.inner article h2 {
+		font-family: 'Lato';
+		line-height: 1.1;
+	}
+
+	.inner aside h1 {}
+
+	.inner article h1 {
+		margin: 0 0 20px;
+		width: 100%;
+		color: rgba(230,170,0,1);
+		font-size: 1.4em;
+		letter-spacing: 1px;
+	}
+
+	.inner aside h2 {
+		display: block;
+		padding: 5px;
+		color: #fff;
+		background: rgba(230,170,0,.4);
+		font-size: 1em;
+	}
+
+	.inner article h2 {
+		display: block;
+		padding: 5px;
+		color: #fff;
+		background: rgba(230,170,0,.4);
+		font-size: 1em;
+	}
+
+	.inner article .content {
+		color: #fff;
+	}
+
+		.inner article .content img {
+			display: block;
+		}
+
+		.inner article .content .aligncenter {
+			display: block;
+			margin: 0 auto 10px;
+		}
+
+		.inner article .content .alignright {
+			margin: 0 0 0 10px;
+			float: right;
+		}
+
+		.inner article .content .alignleft {
+			margin: 0 10px 0 0;
+			float: left;
+		}
+		
+		.inner article .content .wp-caption {
+			display: block;
+			padding: 5px 2px;
+			color: #fff;
+			background: rgba(230,170,0,.4);
+		}
+		
+		.inner article .content .wp-caption-text {
+			display: block;
+			padding: 5px 2px;
+			color: #fff;
+			background: rgba(230,170,0,.8);
+		}
+
+		.inner article .content .sticky {}
+
+		.inner article .content .gallery {
+			margin: 10px 0 0 0;
+			float: left;
+			width: 100%;
+		}
+
+		.inner article .content .gallery-item {
+			position: relative;
+			margin: 10px 10px 0 0;
+			float: left;
+		}
+
+		.inner article .content .gallery-caption {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			font-size: .7em;
+		}
+
+		.inner article .content .bypostauthor {}
+
+/* PAGES STYLES */
+
+.inner section > .content {
+	margin: 0 15px;
+	color: #fff;
+}
+
+/* PAGE TEMPLATE AMAZONIA */
+
+.inner section > .content .us {
+	margin: 0 30px 50px;
+	text-align: left;
+}
+
+	.inner section > .content .us span {
+		display: block;
+		margin: 0 0 10px 0;
+		font-size: 1.4em;
+	}
+
+	.inner section > .content .us p {
+		text-align: justify;
+	}
+
+.inner section > .content .filosophy {
+	margin: 0 0 50px 0;
+	float: left;
+	width: 100%;
+	background: rgba(235,170,0,.4);
+}
+
+	.inner section > .content .filosophy .mission, 
+	.inner section > .content .filosophy .vision, 
+	.inner section > .content .filosophy .values {
+		margin: 0 1px;
+		padding: 30px 9px;
+		float: left;
+		width: 300px;
+		text-align: center;
+	}
+
+		.inner section > .content .filosophy .mission span, 
+		.inner section > .content .filosophy .vision span, 
+		.inner section > .content .filosophy .values span {
+			display: block;
+			margin: 0 0 10px 0;
+			font-size: 1.4em;
+		}
+
+		.inner section > .content .filosophy .mission p, 
+		.inner section > .content .filosophy .vision p, 
+		.inner section > .content .filosophy .values p {
+			text-align: left;
+		}
+
+.inner section > .content .contact {
+	margin: 0 0 50px 0;
+	float: left;
+	width: 100%;
+}
+
+	.inner section > .content .contact .map {
+		margin: 0 15px 0 0;
+		float: left;
+		width: 600px;
+	}
+
+	.inner section > .content .contact .info {
+		margin: 0;
+		float: left;
+		width: 355px;
+	}
+
+		.inner section > .content .contact .info span {
+			display: block;
+			margin: 0 0 10px 0;
+			font-size: 1.4em;
+		}
+
+		.inner section > .content .contact .info p {
+			margin: 0;
+		}
