@@ -87,6 +87,11 @@ body {
 									width: 42px;
 									height: auto;
 									opacity: .6;
+									-o-transition: .3s;
+									-ms-transition: .3s;
+									-moz-transition: .3s;
+									-webkit-transition: .3s;
+									transition: .3s;
 								}
 
 								header .wrapper .social a img:hover {
@@ -121,10 +126,15 @@ body {
 											font-size: 1.5em;
 											text-decoration: none;
 											letter-spacing: 2px;
+											-o-transition: .3s;
+											-ms-transition: .3s;
+											-moz-transition: .3s;
+											-webkit-transition: .3s;
+											transition: .3s;
 										}
 
 										ul#menu-principal li a:hover {
-											text-decoration: underline;
+											border-bottom: 3px solid #fff;
 										}
 
 					header .logo {
@@ -184,6 +194,15 @@ body {
 
 									section .inner .distributions .lastest-movies .inner .movie {
 										width: 150px;
+										background: rgba(250,220,0,.4);
+										-o-transition: .3s;
+										-ms-transition: .3s;
+										-moz-transition: .3s;
+										-webkit-transition: .3s;
+										transition: .3s;
+									}
+
+									section .inner .distributions .lastest-movies .inner .movie:hover {
 										background: rgba(250,220,0,.6);
 									}
 
@@ -199,19 +218,18 @@ body {
 											}
 
 											section .inner .distributions .lastest-movies .inner .movie a {
-												display: block;
+												display: flex;
+												text-decoration: none;
+												text-align: center;
+												flex-direction: column;
+											}
+
+											section .inner .distributions .lastest-movies .inner .movie a h4 {
 												margin: 10px 5px 0;
 												color: #fff;
-												font-size: 1em;
-												font-weight: 700;
-												text-decoration: none;
 											}
 
-											section .inner .distributions .lastest-movies .inner .movie a:hover {
-												text-decoration: underline;
-											}
-
-											section .inner .distributions .lastest-movies .inner .movie span {
+											section .inner .distributions .lastest-movies .inner .movie a span {
 												display: block;
 												margin: 5px 5px 10px 5px;
 												color: #fff;
@@ -220,32 +238,43 @@ body {
 											}
 
 						section .inner .general-info {
+							display: flex;
 							border-top: 3px solid #fff;
 						}
 
 							section .inner .general-info .lastest-news {
-								float: left;
-								width: 670px;
+								display: flex;
+								margin: 15px 15px 0 0;
+								width: 655px;
 							}
 
 								section .inner .general-info .lastest-news .inner {
-									margin: 15px 0 0 0;
+									display: flex;
 									padding: 0;
-									float: left;
 									width: 100%;
+									flex-direction: row;
+									justify-content: space-between;
+									align-items: stretch;
 								}
 									section .inner .general-info .lastest-news .inner .post {
-										margin: 0 15px 0 0;
-										float: left;
+										display: flex;
+										flex-direction: column;
 										width: 320px;
-										height: 360px;
 										background: rgba(235,170,0,.4);
+										-o-transition: .3s;
+										-ms-transition: .3s;
+										-moz-transition: .3s;
+										-webkit-transition: .3s;
+										transition: .3s;
 									}
 
-										section .inner .general-info .lastest-news .inner .post a,
-										section .inner .general-info .lastest-news .inner .post span {
-											float: left;
-											width: 100%;
+									section .inner .general-info .lastest-news .inner .post:hover {
+										background: rgba(235,170,0,.6);
+									}
+
+										section .inner .general-info .lastest-news .inner .post a {
+											display: flex;
+											flex-direction: column;
 										}
 
 										section .inner .general-info .lastest-news .inner .post a {
@@ -255,27 +284,21 @@ body {
 											text-decoration: none;
 										}
 
-										section .inner .general-info .lastest-news .inner .post a.title {
-											margin: 0 15px 5px;
-											width: 290px;
-											height: 70px;
-											overflow: hidden;
-										}
-
-										section .inner .general-info .lastest-news .inner .post a.title:hover {
-											text-decoration: underline;
-										}
-
 											section .inner .general-info .lastest-news .inner .post a img {
 												display: block;
 												width: 100%;
 												height: auto;
 											}
 
-											section .inner .general-info .lastest-news .inner .post span {
-												margin: 5px 15px;
+											section .inner .general-info .lastest-news .inner .post a span {
+												margin: 15px 15px 15px;
 												color: #fff;
 												font-size: .9em;
+											}
+
+											section .inner .general-info .lastest-news .inner .post a h4 {
+												margin: 15px 15px 15px;
+												font-size: 1.6em;
 											}
 
 							section .inner .general-info .social {
@@ -347,10 +370,15 @@ body {
 		float: left;
 		width: 240px;
 		background: rgba(235,170,0,.4);
+		-o-transition: .3s;
+		-ms-transition: .3s;
+		-moz-transition: .3s;
+		-webkit-transition: .3s;
+		transition: .3s;
 	}
 
 	.inner .entry .article:hover {
-		background: rgba(235,170,0,.8);
+		background: rgba(235,170,0,.6);
 	}
 
 		.inner .entry .article .inner {
@@ -473,6 +501,11 @@ body {
 			padding: 10px;
 			float: left;
 			background: rgba(230,170,0,.4);
+			-o-transition: .3s;
+			-ms-transition: .3s;
+			-moz-transition: .3s;
+			-webkit-transition: .3s;
+			transition: .3s;
 		}
 
 		.inner aside .gallery a:hover {
@@ -485,6 +518,8 @@ body {
 
 				.inner aside .gallery a img {
 					display: block;
+					width: 100px;
+					height: 100px;
 				}
 
 		.inner article .content .synopsis,
