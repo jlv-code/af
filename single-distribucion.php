@@ -7,7 +7,7 @@
 		$title = get_the_title();
 		$poster = types_render_field('poster', array('output' => 'normal', 'width' => '240', 'height' => '387'));
 		$apublicacion = types_render_field('ano-de-publicacion', array('output' => 'normal'));
-		$trailer = types_render_field('trailer', array('output' => 'normal', 'width' => '240'));
+		$trailer = types_render_field('trailer', array('output' => 'normal', 'width' => '715'));
 		$gallerythumb = explode(',', do_shortcode('[types field="galeria-de-imagenes" separator="," width="100" height="100" url="true"][/types]'));
 		$galleryfull = explode(',', do_shortcode('[types field="galeria-de-imagenes" separator="," url="true"][/types]'));
 		$sinopsis = types_render_field('sinopsis', array('output' => 'normal'));
@@ -23,11 +23,6 @@
 	<aside>
 		<div class="poster"><?php echo $poster ?></div>
 		<div class="premier"><span><?php echo $apublicacion ?></span></div>
-		<div class="trailer">
-			<h2>Trailer</h2>
-			<?php echo $trailer ?>
-		</div>
-
 		<?php if (count($gallerythumb)>1): ?>
 		<div class="gallery">
 			<h2>Fotogalería</h2>
@@ -42,6 +37,10 @@
 	<article>
 		<h1><?php echo $title ?></h1>
 		<div class="content">
+			<div class="trailer">
+				<h2>Trailer</h2>
+				<?php echo $trailer ?>
+			</div>
 			<div class="synopsis">
 				<h2>Sinópsis</h2>
 				<p><?php echo $sinopsis ?></p>
