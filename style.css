@@ -369,6 +369,7 @@ body {
 	.inner .entry .article {
 		position: relative;
 		margin-bottom: 20px;
+		margin-right: 2px;
 		float: left;
 		width: 240px;
 		background: rgba(235,170,0,.4);
