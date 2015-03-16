@@ -347,7 +347,8 @@ body {
 	margin: 0 15px;
 	width: 970px;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 	align-items: stretch;
 }
 
@@ -367,6 +368,7 @@ body {
 
 	.inner .entry .article {
 		position: relative;
+		margin-bottom: 20px;
 		float: left;
 		width: 240px;
 		background: rgba(235,170,0,.4);
