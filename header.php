@@ -31,6 +31,7 @@
 								<a target="_blank" href="https://www.facebook.com/amazoniafilms.distribuidora"><img src="<?php echo get_template_directory_uri() ?>/static/images/facebook.png" alt="facebook"></a>
 								<a target="_blank" href="https://twitter.com/amazoniafilms"><img src="<?php echo get_template_directory_uri() ?>/static/images/twitter.png" alt="twitter"></a>
 								<a target="_blank" href="https://www.youtube.com/channel/UCxaf6TY5S5hVmHWwCZy3waQ"><img src="<?php echo get_template_directory_uri() ?>/static/images/youtube.png" alt="youtube"></a>
+								<a target="_blank" href="https://instagram.com/amazoniafilms"><img src="<?php echo get_template_directory_uri() ?>/static/images/instagram.png" alt="instagram"></a>
 							</div>
 							<nav><?php wp_nav_menu(array('theme_location' => 'primary')) ?></nav>
 						</div>

@@ -25,6 +25,7 @@ function af_theme_features()  {
 	if (function_exists('add_image_size')) {
 		add_image_size('240x180', 240, 180, true);
 		add_image_size('970x310', 970, 310, true);
+		add_image_size('billboard', 150, 250, true);
 	}
 }
 

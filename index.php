@@ -34,7 +34,24 @@
 						<?php the_post_thumbnail('240x180') ?>
 						<span><?php the_time('j/m/Y') ?></span>
 						<h4><?php the_title() ?></h4>
-						<span><?php the_excerpt() ?></span>
+					</a>
+				</div>
+				<?php endwhile; endif; ?>
+				<?php wp_reset_postdata() ?>
+			</div>
+		</div>
+		<div class="billboard">
+			<div class="inner">
+				<span class="billboardtitle">En Cartelera</span>
+				<?php $args = array ('category_name' => 'cartelera', 'posts_per_page' => '2',) ?>
+				<?php $query = new WP_Query( $args ) ?>
+				<?php if ( $query->have_posts() ): while ( $query->have_posts() ): $query->the_post() ?>
+				<div class="post">
+					<a href="<?php the_permalink() ?>">
+						<?php the_post_thumbnail('billboard') ?>
+						<div class="info">
+							<h4><?php the_title() ?></h4>
+						</div>
 					</a>
 				</div>
 				<?php endwhile; endif; ?>
