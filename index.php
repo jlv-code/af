@@ -42,7 +42,7 @@
 		</div>
 		<div class="billboard">
 			<div class="inner">
-				<span class="billboardtitle">En Cartelera</span>
+				<span class="billboardtitle">Cartelera</span>
 				<?php $args = array ('category_name' => 'cartelera', 'posts_per_page' => '2',) ?>
 				<?php $query = new WP_Query( $args ) ?>
 				<?php if ( $query->have_posts() ): while ( $query->have_posts() ): $query->the_post() ?>
