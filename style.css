@@ -385,6 +385,19 @@ body {
 							height: auto;
 						}
 
+						footer .inner .info {
+							padding: 15px 15px 0;
+							float: left;
+							width: 970px;
+						}
+
+						footer .inner .info span {
+							float: left;
+							width: 970px;
+							color: #fff;
+							font-size: .8em;
+						}
+
 /* CATEGORY STYLES */
 
 .inner h1,
