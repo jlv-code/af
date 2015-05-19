@@ -411,15 +411,20 @@ body {
 
 /* CATEGORY STYLES */
 
-.inner h1,
+.inner h1 {
+	display: block;
+	margin: 0 15px;
+}
+
 .inner .entry {
-	display: flex;
+	display: block;
 	margin: 0 15px;
 	width: 970px;
-	flex-direction: row;
+	/*flex-direction: row;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	align-items: stretch;
+	align-items: stretch;*/
+	text-align: justify;
 }
 
 .inner .pag {
@@ -438,10 +443,10 @@ body {
 
 	.inner .entry .article {
 		position: relative;
+		display: inline-block;
 		margin-bottom: 20px;
-		margin-right: 2px;
-		float: left;
 		width: 240px;
+		height: 410px;
 		background: rgba(235,170,0,.4);
 		-o-transition: .3s;
 		-ms-transition: .3s;
