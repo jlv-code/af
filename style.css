@@ -67,19 +67,20 @@ body {
 				}
 
 					header .wrapper {
-						float: left;
+						display: inline-block;
 						width: 820px;
 					}
 
 						header .wrapper .social {
+							display: inline-block;
 							margin: 50px 0 0 0;
-							float: left;
 							width: 100%;
+							text-align: right;
 						}
 
 							header .wrapper .social a {
+								display: inline-block;
 								margin: 0 15px;
-								float: left;
 							}
 
 								header .wrapper .social a img {
@@ -99,12 +100,14 @@ body {
 								}
 
 						header .wrapper nav {
+							display: inline-block;
 							margin: 20px 0 0 0;
-							float: left;
 							width: 100%;
+							text-align: right;
 						}
 
 							nav .menu-principal-container {
+								display: inline-block;
 								margin: 20px 0 0 15px;
 							}
 
@@ -114,7 +117,7 @@ body {
 								}
 
 									ul#menu-principal li {
-										margin: 0 20px 0 0;
+										margin: 0 15px 0 0;
 										float: left;
 										list-style: none;
 									}

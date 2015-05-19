@@ -26,6 +26,9 @@
 			<div class="inner">
 				<header>
 					<div class="inner">
+						<div class="logo">
+							<img src="<?php echo get_template_directory_uri() ?>/static/images/logo-af.png" alt="Amazonia Films">
+						</div>
 						<div class="wrapper">
 							<div class="social">
 								<a target="_blank" href="https://www.facebook.com/amazoniafilms.distribuidora"><img src="<?php echo get_template_directory_uri() ?>/static/images/facebook.png" alt="facebook"></a>
@@ -34,9 +37,6 @@
 								<a target="_blank" href="https://instagram.com/amazoniafilms"><img src="<?php echo get_template_directory_uri() ?>/static/images/instagram.png" alt="instagram"></a>
 							</div>
 							<nav><?php wp_nav_menu(array('theme_location' => 'primary')) ?></nav>
-						</div>
-						<div class="logo">
-							<img src="<?php echo get_template_directory_uri() ?>/static/images/logo-af.png" alt="Amazonia Films">
 						</div>
 					</div>
 				</header>
