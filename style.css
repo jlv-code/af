@@ -444,7 +444,6 @@ body {
 	.inner .entry .article {
 		position: relative;
 		display: inline-block;
-		margin-bottom: 20px;
 		width: 240px;
 		height: 410px;
 		background: rgba(235,170,0,.4);
@@ -493,7 +492,7 @@ body {
 				.inner .entry .article a h2 {
 					margin: 10px 0 0 0;
 					color: #fff;
-					font-size: 1.3em;
+					font-size: 1.2em;
 				}
 
 				.inner .entry .article .excerpt {
