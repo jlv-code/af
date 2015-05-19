@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <div class="inner">
-	<h1>Noticias</h1>
+	<h1><?php single_cat_title() ?></h1>
 	<div class="entry">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post() ?>
 		<div class="article">
