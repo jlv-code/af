@@ -448,6 +448,7 @@ body {
 		width: 240px;
 		height: 410px;
 		background: rgba(235,170,0,.4);
+		text-align: left;
 		-o-transition: .3s;
 		-ms-transition: .3s;
 		-moz-transition: .3s;
